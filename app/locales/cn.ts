@@ -125,7 +125,7 @@ const cn = {
     ResetConfirm: "确认清空历史摘要？",
   },
   Home: {
-    NewChat: "新的聊天",
+    NewChat: "新的咨询",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
@@ -483,8 +483,8 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    DefaultTopic: "金融服务",
+    BotHello: "您好！欢迎咨询！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
@@ -503,7 +503,8 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `包含 ${x} 条预设提示词`,
+    // Toast: (x: any) => `包含 ${x} 条预设提示词`,
+    Toast: (x: any) => `按时休息，按时吃饭呦~`,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",
@@ -514,13 +515,13 @@ const cn = {
     Artifacts: "Artifacts",
   },
   Discovery: {
-    Name: "发现",
+    Name: "高级",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
   },
   Mask: {
-    Name: "面具",
+    Name: "功能",
     Page: {
       Title: "预设角色面具",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
