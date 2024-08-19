@@ -483,8 +483,8 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "金融服务",
-    BotHello: "您好！欢迎咨询！",
+    DefaultTopic: "新的对话",
+    BotHello: "您好！欢迎咨询！让我们开始吧！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
